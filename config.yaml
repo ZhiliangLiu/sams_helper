@@ -2,7 +2,7 @@
 # 基础设置
 ###############################
 # 山姆会员 Token
-authToken: "<authToken>"
+authToken: "740d926b981716f4dd82e652557da15c9dfcdb914034d2fee3af8b11a7182404"
 # 运行模式
 # 1->山姆抢购 | 2->保供抢购
 runMode: 1
@@ -39,7 +39,7 @@ deviceType: 1
 ignoreInvalid: true
 # 商店类型
 # 2->生鲜直达 | 4->极速达 | 8->全球购保税
-storeType: 2
+storeType: 4
 # 商品类型
 # 1->普通商品 | 2->全球购商品
 floorId: 1
@@ -55,14 +55,14 @@ saasId: "1818"
 noticeSet:
   # 通知类型
   # 0->不通知 | 1->Bark | 2->Server酱 | 3->OSX 系统语音
-  noticeType: 0
+  noticeType: 1
 
   # Bark 通知配置
   bark:
     # Bark 端点地址
     barkServer: "https://api.day.app"
     # Bark Token
-    barkToken: "<barkToken>"
+    barkToken: "VorcirMkCuJ87NXF9QRFoX"
     # 信息内容
     barkMessage: "【山姆助手】抢购成功，请及时付款！"
     # 提示音
